@@ -3,7 +3,7 @@ name: Deploy Wiki to GitHub Pages
 on:
   push:
     branches:
-      - stable
+      - main
   schedule:
     - cron: '0 4 * * *'
   repository_dispatch:
